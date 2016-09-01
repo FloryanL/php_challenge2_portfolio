@@ -1,18 +1,52 @@
-/*commentaires*/
-* {
-    color: black;
+/* color: #123EAB; #FFD500; #FF7600; */
+
+@font-face {
+    font-family: 'Kadisoka script', 'Phenomena';
+    src: url(kadisoka_script_demo_2.ttf|Phenomena-Regular.otf);
 }
+
 body {
     margin: 0;
+    font-family: 'Phenomena';
+    line-height: 1.5;
 }
 header {
-    color: red;
+    color: #C9BBAB;
+    height: 100vh;
+    background: lightgrey;
+    margin-top: 4vh;
 }
-nav {
-    background: green;
+.accueil {
+    height: 33%;
+    width: 33%;
+    margin-top: 15%;
+    background: black;
+    opacity: 0.5;
+    font-size: 2.5vh;
+    font-weight: 800;
+}
+h1 {
+    font-family: 'Kadisoka script';
+}
+.nav {
+    font-size: 2vh;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background: gray;
+    color: powderblue;
 }
 section {
-    background: gray;
+    height: 100vh;
+    background: saddlebrown;
+}
+.xp {
+    background: sandybrown;
+}
+.domaine {
+    background: lightslategray;
+}
+.contact {
+    background: sandybrown;
 }
 footer {
     background: blue;

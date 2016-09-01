@@ -4,36 +4,62 @@
 <head>
     <title>Portfolio</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="elements/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="section1">
         <header class="row">
             <div class="col-lg-4"></div>
-            <div class="col-lg-4 text-center">
-                <h1>Portfolio</h1>
-                <p>Ceci est un portfolio !!</p>
+            <div class="col-lg-4 text-center accueil">
+                <h1>Moi en quelques lignes</h1>
+                <p>Bienvenue sur mon site, je suis Floryan L, je suis un développeur junior. Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Repudiandae, velit, reiciendis architecto ratione dolor esse adipisci consequuntur
+                    recusandae veritatis! Esse omnis ea corporis, consequatur, magnam animi voluptatem unde molestiae. Sequi!</p>
             </div>
             <div class="col-lg-4"></div>
         </header>
-        <div class="container-fluid">
-             <nav class="nav navbar-inverse">
-                <ul class="nav navbar-header">
-                    <li class="col-lg-4 active"><a href="#">Accueil</a></li>
-                    <li class="col-lg-4"><a href="#">Portfolio</a></li>
-                    <li class="col-lg-4"><a href="#">Contact</a></li>
+
+        <div class="row text-center">
+            <nav class="nav navbar-inverse navbar-fixed-top">
+                <ul class="sticky side nav">
+                    <li class="col-lg-3"><a href="#section1">Accueil</a></li>
+                    <li class="col-lg-3"><a href="#section2">Portfolio</a></li>
+                    <li class="col-lg-3"><a href="#section3">Mes Compétences</a></li>
+                    <li class="col-lg-3"><a href="#section4">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <div>
-            <section class="col-lg-10">
-                <p>section</p>
-            </section>
-        </div>
+
+        <section class="row" id="section2">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10 xp">
+                <p>Mes démonstration</p>
+            </div>
+            <div class="col-lg-1"></div>
+        </section>
+
+        <section class="row" id="section3">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-12 domaine">
+                <p>Mes domaines</p>
+            </div>
+            <div class="col-lg-1"></div>
+        </section>
+
+        <section class="row" id="section4">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-12 contact">
+                <p>Contact</p>
+            </div>
+            <div class="col-lg-1"></div>
+        </section>
+
         <footer class="row">
-            Pied de page
+            <div class="col-lg-12">
+                <p class="credits">Footer</p>
+            </div>
         </footer>
     </div>
 </body>
