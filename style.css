@@ -19,7 +19,7 @@ header {
 .accueil {
     height: 33%;
     width: 33%;
-    margin-top: 15%;
+    margin-top: 12em;
     background: black;
     opacity: 0.5;
     font-size: 2.5vh;
@@ -27,6 +27,8 @@ header {
 }
 h1 {
     font-family: 'Kadisoka script';
+    padding-bottom: 0.5em;
+    margin-top: 1em;
 }
 .nav {
     font-size: 2vh;
