@@ -1,0 +1,19 @@
+/*commentaires*/
+* {
+    color: black;
+}
+body {
+    margin: 0;
+}
+header {
+    color: red;
+}
+nav {
+    background: green;
+}
+section {
+    background: gray;
+}
+footer {
+    background: blue;
+}
