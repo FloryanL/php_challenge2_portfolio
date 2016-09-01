@@ -44,6 +44,33 @@ section {
 .xp {
     background: sandybrown;
 }
+img {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30vh;
+}/*
+#maquette1 {
+    background-image: url("elements\images\maquette1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 150px;
+}/*
+#maquette2 {
+    background-image: url("elements\images\maquette2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 150px;
+}
+#maquette3 {
+    background-image: url("elements\images\maquette3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 150px;
+}*/
 .domaine {
     background: lightslategray;
 }
