@@ -4,6 +4,19 @@
     font-family: 'Kadisoka script', 'Phenomena';
     src: url(kadisoka_script_demo_2.ttf|Phenomena-Regular.otf);
 }
+/*
+@media screen and (max-width: 320px)
+{
+
+}
+@media screen and (max-width: 768px)
+{
+	
+}
+@media screen and (max-width: 1280px)
+{
+	
+}	*/
 
 body {
     margin: 0;
