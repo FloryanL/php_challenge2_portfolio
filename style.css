@@ -74,31 +74,21 @@ img {
     height: 40vh;
     width: 30vh;
     border-radius: 2.5vh;
-    margin: 15vh 0;
+    margin: 4vh 0;
 }
-/*
-#maquette1 {
-    background-image: url("elements\images\maquette1.png");
+img:hover {
+    position: absolute;
+    z-index: 1;
     background-size: 100%;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 150px;
-}/*
-#maquette2 {
-    background-image: url("elements\images\maquette2.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 150px;
+    height: 70vh;
+    width: 60vh;
+    box-shadow: 0 0 25px #111;
+    -webkit-box-shadow: 0 0 25px #111;
+    -moz-box-shadow: 0 0 25px #111;
 }
-#maquette3 {
-    background-image: url("elements\images\maquette3.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 150px;
-}*/
-
+.white_bloc {
+    background: white;
+}
 .domaine {
     background: lightgrey;
     height: 100vh;
@@ -108,5 +98,9 @@ img {
     height: 100vh;
 }
 footer {
-    background: lightgrey;
+    background: #222222;
+    color: #305F91;
+    font-size: 2vh;
+    height: 5vh;
+    padding: 1vh 0;
 }
