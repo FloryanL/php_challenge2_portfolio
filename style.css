@@ -20,6 +20,12 @@
         margin-top: 1em;
         font-size: 25px;
     }
+    button {
+        background: gray;
+        color: powderblue;
+        border-radius: 0.5vh;
+        margin: 3vh 13vh !important;
+    }
 }
 
 body {
@@ -38,6 +44,9 @@ header {
     width: 33%;
     margin-top: 12em;
     background: black;
+    box-shadow: 0 0 25px #111;
+    -webkit-box-shadow: 0 0 25px #111;
+    -moz-box-shadow: 0 0 25px #111;
     opacity: 0.5;
     font-size: 2.5vh;
     font-weight: 800;
@@ -86,8 +95,11 @@ img:hover {
     -webkit-box-shadow: 0 0 25px #111;
     -moz-box-shadow: 0 0 25px #111;
 }
-.white_bloc {
-    background: white;
+.description {
+    padding: 1vh;
+    font-size: 2vh;
+    border-radius: 0.5vh;
+    opacity: 0.8;
 }
 .domaine {
     background: lightgrey;
@@ -108,20 +120,25 @@ form {
     color: azure;
     width: 30%;
     margin: 0% auto;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 2.5vh;
+    padding: 0 2vh;
     font-size: 2vh;
 }
 input {
     margin: 2vh;
-
+    border-radius: 0.5vh;
+    color: #222222;
 }
 textarea {
     margin: 2% 0%;
+    border-radius: 0.5vh;
+    color: #222222;
 }
 button {
     background: gray;
     color: powderblue;
+    border-radius: 0.5vh;
+    margin: 2vh 18vh;
 }
 footer {
     background: #222222;
