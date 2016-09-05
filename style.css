@@ -4,6 +4,7 @@
     font-family: 'Kadisoka script', 'Phenomena';
     src: url(kadisoka_script_demo_2.ttf|Phenomena-Regular.otf);
 }
+
 /*
 @media screen and (max-width: 320px)
 {
@@ -12,11 +13,21 @@
 @media screen and (max-width: 768px)
 {
 	
-}
-@media screen and (max-width: 1280px)
-{
-	
-}	*/
+}*/
+
+@media only screen and (min-width : 1200px) {
+
+	#aboutme {
+       font-size: 12px;
+       
+    }
+    h1 {
+        font-family: 'Kadisoka script';
+        padding-bottom: 0.5em;
+        margin-top: 1em;
+        font-size: 25px;
+    }
+}	
 
 body {
     margin: 0;
