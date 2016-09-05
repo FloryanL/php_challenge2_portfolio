@@ -1,25 +1,18 @@
-/* color: #123EAB; #FFD500; #FF7600; */
+/* color: #123EAB; #FFD500; #FF7600; 
+@media screen and (max-width: 320px)
+{ }
+@media screen and (max-width: 768px)
+{ } */
 
 @font-face {
     font-family: 'Kadisoka script', 'Phenomena';
     src: url(kadisoka_script_demo_2.ttf|Phenomena-Regular.otf);
 }
 
-/*
-@media screen and (max-width: 320px)
-{
-
-}
-@media screen and (max-width: 768px)
-{
-	
-}*/
-
-@media only screen and (min-width : 1200px) {
+@media only screen and (max-width : 1280px) {
 
 	#aboutme {
        font-size: 12px;
-       
     }
     h1 {
         font-family: 'Kadisoka script';
@@ -27,7 +20,7 @@
         margin-top: 1em;
         font-size: 25px;
     }
-}	
+}
 
 body {
     margin: 0;
@@ -48,11 +41,16 @@ header {
     opacity: 0.5;
     font-size: 2.5vh;
     font-weight: 800;
+    border-radius: 5vh;
 }
 h1 {
     font-family: 'Kadisoka script';
     padding-bottom: 0.5em;
     margin-top: 1em;
+}
+h2 {
+    font-family: 'Kadisoka script';
+    padding-left: 10vh;
 }
 .nav {
     font-size: 2vh;
@@ -73,7 +71,9 @@ img {
     background-repeat: no-repeat;
     height: 40vh;
     width: 30vh;
-}/*
+    border-radius: 5vh;
+}
+/*
 #maquette1 {
     background-image: url("elements\images\maquette1.png");
     background-size: 100%;
@@ -95,11 +95,12 @@ img {
     height: 200px;
     width: 150px;
 }*/
+
 .domaine {
-    background: lightslategray;
+    background: red;
 }
 .contact {
-    background: sandybrown;
+    background: orange;
 }
 footer {
     background: blue;
