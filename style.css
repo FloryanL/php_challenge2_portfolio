@@ -62,10 +62,10 @@ h2 {
 }
 section {
     height: 100vh;
-    background: saddlebrown;
+    background: lightgrey;
 }
 .xp {
-    background: sandybrown;
+    background: lightgrey;
     height: 100vh;
 }
 img {
@@ -100,13 +100,13 @@ img {
 }*/
 
 .domaine {
-    background: red;
+    background: lightgrey;
     height: 100vh;
 }
 .contact {
-    background: orange;
+    background: lightgrey;
     height: 100vh;
 }
 footer {
-    background: blue;
+    background: lightgrey;
 }
