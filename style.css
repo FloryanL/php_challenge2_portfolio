@@ -51,6 +51,7 @@ h1 {
 h2 {
     font-family: 'Kadisoka script';
     padding-left: 10vh;
+    margin: 6vh 0;
 }
 .nav {
     font-size: 2vh;
@@ -65,13 +66,15 @@ section {
 }
 .xp {
     background: sandybrown;
+    height: 100vh;
 }
 img {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 40vh;
     width: 30vh;
-    border-radius: 5vh;
+    border-radius: 2.5vh;
+    margin: 15vh 0;
 }
 /*
 #maquette1 {
@@ -98,9 +101,11 @@ img {
 
 .domaine {
     background: red;
+    height: 100vh;
 }
 .contact {
     background: orange;
+    height: 100vh;
 }
 footer {
     background: blue;
