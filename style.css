@@ -97,6 +97,32 @@ img:hover {
     background: lightgrey;
     height: 100vh;
 }
+
+/* formulaire */
+form {
+    background-color: #202020;
+    box-shadow: 0 0 25px #111;
+    -webkit-box-shadow: 0 0 25px #111;
+    -moz-box-shadow: 0 0 25px #111;
+    opacity: 0.8;
+    color: azure;
+    width: 30%;
+    margin: 0% auto;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 2vh;
+}
+input {
+    margin: 2vh;
+
+}
+textarea {
+    margin: 2% 0%;
+}
+button {
+    background: gray;
+    color: powderblue;
+}
 footer {
     background: #222222;
     color: #305F91;

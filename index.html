@@ -47,15 +47,15 @@
                     </div>
                     <div class="col-lg-4 col-md-4 text-center" id="maquette2" alt="maquette2">
                         <a href="#" class="visionneuse" id="projet2">
-                            <img src="elements\images\maquette2.png" />
-                            <p class="description">Voici le deuxième projet que j'ai réalisé.</p>
+                            <img src="elements\images\maquette2.png" />                            
                         </a>
+                        <p class="description">Voici le deuxième projet que j'ai réalisé.</p>
                     </div>
                     <div class="col-lg-4 col-md-4 text-center" id="maquette3" alt="maquette3">
                         <a href="#" class="visionneuse" id="projet3">
-                            <img src="elements\images\maquette3.png" />
-                            <p class="description">Voici le troisième projet que j'ai réalisé.</p>
+                            <img src="elements\images\maquette3.png" />                            
                         </a>
+                        <p class="description">Voici le troisième projet que j'ai réalisé.</p>
                     </div>
                 </div>
             </div>
@@ -76,13 +76,40 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-10 contact">
             <h2>Contact</h2>
+            <form method="post" action=""> <!-- formulaire -->
+                <p>
+                    <label for="Nom">Votre Nom :</label>
+                    <input type="text" name="Nom" id="Nom" placeholder="Ex : Kenobi" size="30" maxlength="10" />
+                </p>
+                <p>
+                    <label for="Prenom">Votre Prénom :</label>
+                    <input type="text" name="Prenom" id="Prenom" placeholder="Ex : Ben" size="30" maxlength="10" />
+                </p>
+                <p>
+                    <label for="Mail">Votre adresse mail :</label>
+                    <input type="email"></code>
+                </p>
+                <p>
+                    <label for="Description">Commentaire :</label>
+                    <textarea name="Description" id="Description" rows="10" cols="45"></textarea>
+                </p>
+                <p>
+                    <button onclick="myFunction()">Envoyer</button>
+
+                    <script>
+                        function myFunction() {
+                            alert("Inscription effectué");
+                        }
+                    </script>
+                </p>
+            </form>
         </div>
         <div class="col-lg-1"></div>
     </section>
 
     <footer class="container-fluid">
         <div class="col-lg-12">
-            <p class="credits text-center">2016 - FLORYAN LOLLIVER | WEBDESIGN FRONT END | TWITTER | MENTIONS LÉGALES</p>
+            <p class="credits text-center">2016 - FLORYAN LOLLIVIER | WEBDESIGN FRONT END | TWITTER | MENTIONS LÉGALES</p>
         </div>
     </footer>
 
