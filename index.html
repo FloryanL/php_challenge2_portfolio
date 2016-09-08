@@ -6,19 +6,18 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="elements/bootstrap/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Kaushan+Script" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
     <header class="container-fluid" id="section1">
-        <div class="col-lg-4 col-md-4"></div>
-        <div class="col-lg-4 col-md-4 text-center accueil">
+        <div class="col-lg-4 col-md-4 col-xs-push-4 text-center accueil">
             <h1>Moi en quelques lignes</h1>
             <p id="aboutme">Bienvenue sur mon site, je suis Floryan L, je suis un développeur junior. Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. Repudiandae, velit, reiciendis architecto ratione dolor esse adipisci consequuntur recusandae
                 veritatis! Esse omnis ea corporis, consequatur, magnam animi voluptatem unde molestiae. Sequi!</p>
         </div>
-        <div class="col-lg-4 col-md-4"></div>
     </header>
 
     <div class="container-fluid text-center">
@@ -33,11 +32,9 @@
     </div>
 
     <section class="container-fluid" id="section2">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10 xp">
+        <div class="col-lg-10 col-lg-offset-1 xp">
             <h2>Mes démonstrations</h2>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10">
+            <div class="col-lg-10 col-lg-offset-1">
                 <div>
                     <div class="col-lg-4 col-md-4 text-center" id="maquette1" alt="maquette1">
                         <a href="#">
@@ -61,9 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-1"></div>
         </div>
-        <div class="col-lg-1"></div>
     </section>
 
     <section class="container-fluid" id="section3">
@@ -81,23 +76,23 @@
             <h2>Contact</h2>
             <form method="post" action="">
                 <!-- formulaire -->
-                <p>
+                
                     <label for="Nom">Votre Nom :</label>
-                    <input type="text" name="Nom" id="Nom" placeholder="Ex : Kenobi" size="30" maxlength="10" class="text-center" />
-                </p>
-                <p>
+                    <input type="text" name="Nom" id="Nom" placeholder="Ex : Kenobi" size="15" maxlength="10" class="text-center" />
+                
+
                     <label for="Prenom">Votre Prénom :</label>
-                    <input type="text" name="Prenom" id="Prenom" placeholder="Ex : Ben" size="30" maxlength="10" class="text-center" />
-                </p>
-                <p>
+                    <input type="text" name="Prenom" id="Prenom" placeholder="Ex : Ben" size="15" maxlength="10" class="text-center" />
+               
+               
                     <label for="Mail">Votre adresse mail :</label>
-                    <input type="email" maxlength="30" class="text-center"></code>
-                </p>
-                <p>
-                    <label for="Description">Commentaire :</label>
-                    <textarea name="Description" id="Description" rows="5" cols="30"></textarea>
-                </p>
-                <p>
+                    <input type="email" size="18" maxlength="30" class="text-center"></code>
+                
+
+                    <label for="commentaire">Commentaire :</label>
+                    <textarea name="commentaire" rows="3" cols="20"></textarea>
+                
+                
                     <button onclick="myFunction()">Envoyer</button>
 
                     <script>
@@ -105,7 +100,7 @@
                             alert("Inscription effectué");
                         }
                     </script>
-                </p>
+                
             </form>
         </div>
         <div class="col-lg-1"></div>
@@ -121,8 +116,8 @@
             function open_infos() {
                 window.open('elements\images\maquette1.png','projet1','menubar=no, scrollbars=no, top=100, left=100, width=300, height=200');
             }
-    </script>
--->
+            </script>
+    -->
 
 </body>
 

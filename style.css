@@ -3,19 +3,19 @@
 { }
 @media screen and (max-width: 768px)
 { } */
-
-@font-face {
-    font-family: 'Kadisoka script', 'Phenomena';
-    src: url(kadisoka_script_demo_2.ttf|Phenomena-Regular.otf);
-}
+/* 
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Audiowide', cursive;
+ */
 
 @media only screen and (min-width : 1280px) and (max-width : 1824px) {
 
 	#aboutme {
-       font-size: 12px;
+       font-size: 14px;
+       font-family: 'Kaushan Script', cursive;
     }
     h1 {
-        font-family: 'Kadisoka script';
+        font-family: 'Kaushan Script', cursive;
         padding-bottom: 0.5em;
         margin-top: 1em;
         font-size: 25px;
@@ -30,7 +30,7 @@
 
 body {
     margin: 0;
-    font-family: 'Phenomena';
+    font-family: 'Audiowide', cursive;
     line-height: 1.5;
 }
 header {
@@ -40,8 +40,6 @@ header {
     margin-top: 4vh;
 }
 .accueil {
-    height: 33%;
-    width: 33%;
     margin-top: 12em;
     background: black;
     box-shadow: 0 0 25px #111;
@@ -52,13 +50,16 @@ header {
     font-weight: 800;
     border-radius: 5vh;
 }
+#aboutme {
+       font-family: 'Kaushan Script', cursive;
+}
 h1 {
-    font-family: 'Kadisoka script';
+    font-family: 'Kaushan Script', cursive;
     padding-bottom: 0.5em;
     margin-top: 1em;
 }
 h2 {
-    font-family: 'Kadisoka script';
+    font-family: 'Kaushan Script', cursive;
     padding-left: 10vh;
     margin: 6vh 0;
 }
@@ -118,19 +119,21 @@ form {
     -moz-box-shadow: 0 0 25px #111;
     opacity: 0.8;
     color: azure;
-    width: 30%;
+    width: 31%;
     margin: 0% auto;
     border-radius: 2.5vh;
-    padding: 0 2vh;
+    padding: 2vh;
     font-size: 2vh;
+    height: 70%;
 }
+
 input {
     margin: 2vh;
     border-radius: 0.5vh;
     color: #222222;
 }
 textarea {
-    margin: 2% 0%;
+    margin: 2vh;
     border-radius: 0.5vh;
     color: #222222;
 }
@@ -138,7 +141,7 @@ button {
     background: gray;
     color: powderblue;
     border-radius: 0.5vh;
-    margin: 2vh 18vh;
+    margin: 0.5vh 16.5vh !important;
 }
 footer {
     background: #222222;
