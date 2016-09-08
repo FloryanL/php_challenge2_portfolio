@@ -2,11 +2,9 @@
 @media screen and (max-width: 320px)
 { }
 @media screen and (max-width: 768px)
-{ } */
-/* 
-    font-family: 'Kaushan Script', cursive;
-    font-family: 'Audiowide', cursive;
- */
+{ } 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Audiowide', cursive; */
 
 @media only screen and (min-width : 1280px) and (max-width : 1824px) {
 
@@ -29,8 +27,10 @@ body {
 header {
     color: #C9BBAB;
     height: 100vh;
-    background: lightgrey;
-    margin-top: 4vh;
+    background-image: url(elements/images/digital-art.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: 50% 20%;
 }
 .accueil {
     margin-top: 15em;
@@ -39,7 +39,7 @@ header {
     box-shadow: 0 0 25px #111;
     -webkit-box-shadow: 0 0 25px #111;
     -moz-box-shadow: 0 0 25px #111;
-    opacity: 0.5;
+    opacity: 0.8;
     font-size: 2.5vh;
     font-weight: 800;
     border-radius: 5vh;
@@ -58,6 +58,7 @@ h2 {
 }
 .nav {
     font-size: 2vh;
+    opacity: 0.8;
 }
 .nav > li > a:hover, .nav > li > a:focus {
     background: gray;
@@ -93,7 +94,6 @@ img:hover {
     padding: 1vh;
     font-size: 2vh;
     border-radius: 0.5vh;
-    opacity: 0.8;
 }
 .domaine {
     background: lightgrey;
