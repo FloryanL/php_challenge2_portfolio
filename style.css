@@ -152,8 +152,8 @@ textarea {
     color: #222222;
 }
 button {
-    background: gray;
-    color: powderblue;
+    background: #222222;
+    color: #305F91;
     border-radius: 0.5vh;
     margin: 1vh 0;
 }
@@ -167,4 +167,8 @@ footer {
     font-size: 2vh;
     height: 6vh;
     padding: 1vh 0;
+}
+footer a:hover {
+    color: #FFD500;
+    text-decoration: none;
 }
