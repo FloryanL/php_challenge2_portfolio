@@ -124,7 +124,7 @@ img:hover {
     background-size: 100%;
 }
 .contact {
-    height: 100vh;
+    height: 94vh;
 }
 
 /* formulaire */
@@ -170,7 +170,7 @@ footer {
     color: #305F91;
     font-size: 2vh;
     height: 6vh;
-    padding: 1vh 0;
+    padding: 1.5vh 0;
 }
 footer a:hover {
     color: #FFD500;
