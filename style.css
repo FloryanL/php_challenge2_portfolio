@@ -100,7 +100,9 @@ img:hover {
     opacity: 0.8;
 }
 #section3 {
-    background-color: #5F5F5F;
+    background-image: url(elements/images/background1.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
     color: #FF7600;
 }
 #langages {
