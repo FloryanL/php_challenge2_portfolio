@@ -144,12 +144,14 @@ form {
 input {
     margin: 2vh 0;
     border-radius: 0.5vh;
-    color: #222222;
+    background: #222222;
+    border: #FF7600 solid 1px;
 }
 textarea {
     margin: 2vh 0;
     border-radius: 0.5vh;
-    color: #222222;
+    background: #222222;
+    border: #FF7600 solid 1px;
 }
 button {
     background: #222222;
