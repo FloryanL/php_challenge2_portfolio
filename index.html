@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="elements/bootstrap/css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Audiowide|Kaushan+Script" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Kaushan+Script" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
@@ -65,7 +65,7 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-10 domaine">
             <h2>Mes domaines</h2>
-            <p>HTML5 | CSS3 | Javascript | PHP | Bootstrap</p>
+            <p id="langages">HTML5 | CSS3 | Javascript | PHP | Bootstrap</p>
         </div>
         <div class="col-lg-1"></div>
     </section>
@@ -76,25 +76,18 @@
             <h2>Contact</h2>
             <form method="post" action="" class="col-lg-4 col-lg-push-4 col-sm-8 col-sm-push-2">
                 <!-- formulaire -->
-                
-                    <input type="text" name="Nom" id="Nom" placeholder="Votre Nom " size="15" 
-                    maxlength="10" class="text-center col-sm-10 col-sm-push-1" />                
 
-                    <input type="text" name="Prenom" id="Prenom" placeholder="Votre Prénom" size="15" 
-                    maxlength="10" class="text-center col-sm-10 col-sm-push-1" />               
-               
-                    <input type="email" placeholder="Votre adresse mail" size="18" maxlength="30" class="text-center col-sm-10 col-sm-push-1"></code>
-                
-                    <textarea name="commentaire" placeholder="Votre commentaire..." rows="3" cols="20" class="col-sm-10 col-sm-push-1"></textarea>
-                
-                    <button onclick="myFunction()" class="col-lg-4 col-lg-push-4 col-sm-4 col-sm-push-4">Envoyer</button>
+                <input type="text" name="Nom" id="Nom" placeholder="Votre Nom " size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1"
+                />
 
-                    <script>
-                        function myFunction() {
-                            alert("Inscription effectué");
-                        }
-                    </script>
-                
+                <input type="text" name="Prenom" id="Prenom" placeholder="Votre Prénom" size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1"
+                />
+
+                <input type="email" placeholder="Votre adresse mail" size="18" maxlength="30" class="text-center col-sm-10 col-sm-push-1"></code>
+
+                <textarea name="commentaire" placeholder="Votre commentaire..." rows="3" cols="20" class="col-sm-10 col-sm-push-1"></textarea>
+
+                <button onclick="myFunction()" class="col-lg-4 col-lg-push-4 col-sm-4 col-sm-push-4">Envoyer</button>
             </form>
         </div>
         <div class="col-lg-1"></div>
@@ -105,6 +98,12 @@
             <p class="credits text-center">© 2016 - FLORYAN LOLLIVIER | WEBDESIGN FRONT END | <a href="">TWITTER</a | MENTIONS LÉGALES | TOUT DROITS RESERVE</p>
         </div>
     </footer>
+
+    <script>
+        function myFunction() {
+            alert("Commentaire envoyé");
+        }
+    </script>
 
     <!--    <script type="text/javascript">
             function open_infos() {
