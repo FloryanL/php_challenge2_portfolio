@@ -154,8 +154,10 @@ textarea {
 button {
     background: #222222;
     color: #305F91;
+    border: #FF7600 outset 0.5vh;
     border-radius: 0.5vh;
     margin: 1vh 0;
+    padding: 0.5vh 0;
 }
 button:hover {
     background: #123EAB;
