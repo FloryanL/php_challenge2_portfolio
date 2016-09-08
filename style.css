@@ -17,14 +17,7 @@
     h1 {
         font-family: 'Kaushan Script', cursive;
         padding-bottom: 0.5em;
-        margin-top: 1em;
         font-size: 25px;
-    }
-    button {
-        background: gray;
-        color: powderblue;
-        border-radius: 0.5vh;
-        margin: 3vh 13vh !important;
     }
 }
 
@@ -40,7 +33,8 @@ header {
     margin-top: 4vh;
 }
 .accueil {
-    margin-top: 12em;
+    margin-top: 15em;
+    padding: 0vh 2vh 2vh;
     background: black;
     box-shadow: 0 0 25px #111;
     -webkit-box-shadow: 0 0 25px #111;
@@ -51,12 +45,11 @@ header {
     border-radius: 5vh;
 }
 #aboutme {
-       font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', cursive;
 }
 h1 {
     font-family: 'Kaushan Script', cursive;
     padding-bottom: 0.5em;
-    margin-top: 1em;
 }
 h2 {
     font-family: 'Kaushan Script', cursive;
@@ -139,6 +132,7 @@ button {
     background: gray;
     color: powderblue;
     border-radius: 0.5vh;
+    margin: 1vh 0;
 }
 footer {
     background: #222222;
