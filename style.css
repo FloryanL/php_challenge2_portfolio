@@ -82,7 +82,7 @@ img {
     width: 30vh;
     border-radius: 2.5vh;
     margin: 4vh 0;
-}
+}/*
 img:hover {
     position: absolute;
     z-index: 1;
@@ -92,7 +92,7 @@ img:hover {
     box-shadow: 0 0 25px #111;
     -webkit-box-shadow: 0 0 25px #111;
     -moz-box-shadow: 0 0 25px #111;
-}
+}*/
 .description {
     padding: 1vh;
     font-size: 2vh;
@@ -142,7 +142,7 @@ form {
     -webkit-box-shadow: 0 0 25px #111;
     -moz-box-shadow: 0 0 25px #111;
     color: azure;
-    margin: 5% auto 0;
+    margin: 3vh auto 0;
     opacity: 0.9;
     border-radius: 2.5vh;
     padding: 2vh;
@@ -150,7 +150,8 @@ form {
 }
 
 input {
-    margin: 2vh 0;
+    margin: 3vh 0;
+    padding: 2vh 0;
     border-radius: 0.5vh;
     background: #222222;
     color: #FFD500;
