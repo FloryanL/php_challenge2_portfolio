@@ -75,7 +75,7 @@ h2 {
     background-size: cover;
 }
 .xp {
-    height: 100vh;
+    min-height: 100vh;
 }
 img {
     background-repeat: no-repeat;
@@ -98,11 +98,11 @@ img {
     color: #FFD500;
 }
 
-#maquette1 {
+.js-popup {
     cursor: pointer;
     transition: 0.3s;
 }
-#maquette1:hover {
+.js-popup:hover {
     opacity: 0.6;
 }
 
@@ -118,7 +118,7 @@ img {
     overflow: auto; 
     background-color: rgba(0,0,0,0.9); /*color & opacité */
 }
-/*
+
 .js-popup-challenge2-content {
     display: none; 
     position: fixed; 
@@ -130,9 +130,6 @@ img {
     height: 100%; 
     overflow: auto; 
     background-color: rgba(0,0,0,0.9); 
-}*/
-#maquette2 {
-    visibility: hidden;
 }
 
 /* Modal folio */
@@ -290,7 +287,7 @@ footer a:hover {
 
 @media only screen and (max-width: 425px) {
 
-    .navbar-toggle {
+   /* .navbar-toggle {
         position: relative;
         float: right;
         padding: 9px 10px;
@@ -302,7 +299,22 @@ footer a:hover {
         border: 1px solid transparent;
         border-radius: 4px;
     }
-
+    #name {
+         float: left;
+         padding-left: 2vh;
+    }
+    #menu {
+        visibility: hidden;
+    }*/
+    .folio {
+        max-height: 40vh;
+        margin-top: 14vh;
+    }
+    .close {
+        color: #FF7600;
+        top: 80vh;
+        right: 3vh;
+    }   
     #section4 {
         background-image: url(elements/images/numerique_emploi.png);
         background-repeat:no-repeat;
@@ -321,7 +333,12 @@ footer a:hover {
     }
  }
 
-/* @media only screen and (max-width: 768px) { } */
+/*
+@media only screen and (max-width: 430px) and (max-width: 1024px) {
+    footer {
+        min-height: 6vh !important;
+    }
+ }*/ 
 
 @media only screen and (min-width : 1280px) and (max-width : 1824px) {
 
