@@ -28,21 +28,39 @@
     </header>
 
     <div class="container-fluid text-center">
-        <nav class="nav navbar-inverse navbar-fixed-top">
-         <!--   <div class="sticky side nav" id="menu-phone" aria-expanded="true">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <h3 id="name"><a href="#section1">Floryan L</a></h3>
-            </div> -->
-            <ul class="sticky side nav col-lg-8 col-lg-offset-4">
+        <!--<nav class="nav navbar-inverse navbar-fixed-top">
+            <!--<div class="navbar-header col-lg-11 col-lg-push-1">
+                <a class="name" href="#">Floryan L</a>
+            </div>
+            <ul class="sticky side nav col-lg-7 col-lg-offset-5">
                 <li class="col-lg-3 js-section"><a href="#section1">Accueil</a></li>
                 <li class="col-lg-3 js-section"><a href="#section2">Portfolio</a></li>
                 <li class="col-lg-4 js-section"><a href="#section3">Mes Compétences</a></li>
                 <li class="col-lg-2 js-section"><a href="#section4">Contact</a></li>
             </ul>
+        </nav>-->
+        <nav id="sticky" class="navbar navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand" href="#">Floryan L</a>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#test1" 
+					aria-expanded="false" aria-controls="#sticky">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="sticky side nav navbar-right col-lg-6 col-lg-pull-1">
+                    <ul class="nav navbar-nav navbar-right" id="test1">
+                        <li class="col-lg-3 js-section"><a href="#section1">Accueil</a></li>
+                        <li class="col-lg-3 js-section"><a href="#section2">Portfolio</a></li>
+                        <li class="col-lg-5 js-section"><a href="#section3">Mes Compétences</a></li>
+                        <li class="col-lg-1 js-section"><a href="#section4">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </div>
 
@@ -101,7 +119,7 @@
                 />
                 <input type="email" placeholder="Votre adresse mail" size="18" maxlength="30" class="text-center col-sm-10 col-sm-push-1"></code>
                 <textarea name="commentaire" placeholder="Votre commentaire..." rows="3" cols="20" class="col-sm-10 col-sm-push-1"></textarea>
-                <button onclick="myFunction()" class="col-lg-4 col-lg-push-4 col-sm-4 col-sm-push-4">Envoyer</button>
+                <button onclick="myFunction()" class="btnsend col-lg-4 col-lg-push-4 col-sm-4 col-sm-push-4">Envoyer</button>
             </form>
         </div>
     </section>
@@ -109,7 +127,7 @@
     <footer class="container-fluid">
         <div class="col-lg-12">
             <p class="credits text-center">
-                © 2016 - FLORYAN LOLLIVIER | WEBDESIGN FRONT END |
+                FLORYAN LOLLIVIER - © 2016 | WEBDESIGN FRONT END |
                 <a href="https://twitter.com/floryanlollivi1">TWITTER</a> |
                 <a href="https://fr.linkedin.com/in/floryan-lollivier-2a4248122">LINKEDIN</a> |
                 <a href="https://github.com/FloryanL">GITHUB</a> | MENTIONS LÉGALES | TOUT DROITS RESERVE</p>
