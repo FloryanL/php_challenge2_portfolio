@@ -176,11 +176,13 @@ img {
     font-size: 5vh;
     font-weight: bold;
     transition: 0.3s;
+    opacity: inherit;
 }
 .close:hover, .close:focus {
     color: #FFD500;
     text-decoration: none;
     cursor: pointer;
+    opacity: inherit;
 }
 
 /* ================================== */
