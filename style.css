@@ -50,14 +50,28 @@ h2 {
 /* ================================== */
 /* ============= navbar ============= */
 /* ================================== */
-.nav {
+#sticky {
     text-transform: uppercase;
+    background: #202020;
     font-size: 2.2vh;
     opacity: 0.8;
 }
 .nav > li > a:hover, .nav > li > a:focus {
     background: #123EAB;
     color: #FFD500;
+    border-radius: 1vh;
+}
+.icon-bar {
+    background: #123EAB;
+}
+button:active {
+    background: #FFD500 !important;
+}
+.container-fluid > .navbar-collapse:active {
+    /*display: block;*/
+    color: #123EAB;
+    background: #202020;
+    opacity: 0.8;
 }
 
 /* ================================== */
@@ -200,11 +214,13 @@ img {
     font-size: 5vh;
     font-weight: bold;
     transition: 0.3s;
+    opacity: inherit;
 }
 .close:hover, .close:focus {
     color: #FFD500;
     text-decoration: none;
     cursor: pointer;
+    opacity: inherit;
 }
 
 /* ================================== */
@@ -258,7 +274,7 @@ button {
     margin: 1vh 0;
     padding: 0.5vh 0;
 }
-button:hover {
+.btnsend {
     background: #123EAB;
     color: #FFD500;
 }
