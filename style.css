@@ -43,6 +43,7 @@ h2 {
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     color: #FF7600;
+    opacity: 0.8;
     padding-left: 10vh;
     margin: 9vh 0 4vh;
 }
@@ -50,16 +51,21 @@ h2 {
 /* ================================== */
 /* ============= navbar ============= */
 /* ================================== */
+.name {
+    color: #FF7600;
+}
+.name:hover {
+    color: #FFD500;
+}
 #sticky {
     text-transform: uppercase;
-    background: #202020;
+    background: transparent;
     font-size: 2.2vh;
     opacity: 0.8;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-    background: #123EAB;
+    background: transparent;
     color: #FFD500;
-    border-radius: 1vh;
 }
 .icon-bar {
     background: #123EAB;
@@ -273,10 +279,6 @@ button {
     border-radius: 0.5vh;
     margin: 1vh 0;
     padding: 0.5vh 0;
-}
-.btnsend {
-    background: #123EAB;
-    color: #FFD500;
 }
 
 /* ================================== */
