@@ -132,15 +132,13 @@
     <section class="container-fluid" id="section4">
         <div class="col-lg-10 col-lg-push-1 contact">
             <h2>Contact</h2>
-            <form method="post" action="" class="col-lg-6 col-lg-push-3 col-sm-8 col-sm-push-2">
-                <!-- formulaire -->
-                <input type="text" name="Nom" id="Nom" placeholder="Votre Nom " size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1"
-                />
-                <input type="text" name="Prenom" id="Prenom" placeholder="Votre Prénom" size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1"
-                />
-                <input type="email" placeholder="Votre adresse mail" size="18" maxlength="30" class="text-center col-sm-10 col-sm-push-1"></code>
-                <textarea name="commentaire" placeholder="Votre commentaire..." rows="3" cols="20" class="col-sm-10 col-sm-push-1"></textarea>
-                <button onclick="myFunction()" class="btnsend col-lg-4 col-lg-push-4 col-sm-4 col-sm-push-4">Envoyer</button>
+            <!-- formulaire -->
+            <form method="post" action="contact.php" class="col-lg-6 col-lg-push-3 col-sm-8 col-sm-push-2">
+                <input type="text" name="nom" id="nom" placeholder="Votre Nom " size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1" required />
+                <input type="text" name="prenom" id="prenom" placeholder="Votre Prénom" size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1" required />
+                <input type="email" name="email" placeholder="Votre adresse mail" size="18" maxlength="30" class="text-center col-sm-10 col-sm-push-1" required />
+                <textarea name="message" placeholder="Votre commentaire..." rows="3" cols="20" class="col-sm-10 col-sm-push-1" required ></textarea>
+                <button type="submit" class="btnsend col-lg-4 col-lg-push-4 col-sm-4 col-sm-push-4">Envoyer</button>
             </form>
         </div>
     </section>
@@ -148,10 +146,10 @@
     <footer class="container-fluid">
         <div class="col-lg-12">
             <p class="credits text-center">
-                FLORYAN LOLLIVIER - © 2016 | WEBDESIGN FRONT END |
+                <a href="mailto:?to=floryan.lollivier@gmail.com">ME CONTACTER</a> - © 2016 | WEBDESIGN FRONT END |
                 <a href="https://twitter.com/floryanlollivi1">TWITTER</a> |
                 <a href="https://fr.linkedin.com/in/floryan-lollivier-2a4248122">LINKEDIN</a> |
-                <a href="https://github.com/FloryanL">GITHUB</a> | MENTIONS LÉGALES | TOUT DROITS RESERVE</p>
+                <a href="https://github.com/FloryanL">GITHUB</a> </p>
         </div>
     </footer>
 
