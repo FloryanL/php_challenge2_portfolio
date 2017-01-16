@@ -52,10 +52,13 @@ h2 {
 /* ============= navbar ============= */
 /* ================================== */
 .name {
-    color: #FF7600;
+    color: #123EAB;
 }
 .name:hover {
     color: #FFD500;
+}
+.navpadding {
+    padding-right: 50px;
 }
 #sticky {
     text-transform: uppercase;
@@ -266,13 +269,9 @@ img {
     background-size: cover;
 }
 .contact {
-    height: 94vh;
+    height: 86vh;
 }
 form {
-    /*background-color: #161616;*/
-    /*box-shadow: 0 0 25px #111;
-    -webkit-box-shadow: 0 0 25px #111;
-    -moz-box-shadow: 0 0 25px #111;*/
     color: azure;
     margin: 3vh auto 0;
     opacity: 0.9;
@@ -314,13 +313,16 @@ button {
 footer {
     background: #161616;
     color: #305F91;
-    font-size: 2vh;
-    height: 6vh;
-    padding: 1.5vh 0;
+    font-size: 13px;
+    height: 4%;
+    padding: 2vh 0;
 }
 footer a:hover {
     color: #FFD500;
     text-decoration: none;
+}
+.icon-so {
+    margin: 0 2%;
 }
 
 /* ================================== */
@@ -386,16 +388,14 @@ footer a:hover {
 
     .nav {
         text-transform: uppercase;
-        font-size: 2vh;
+        font-size: 13px;
         opacity: 0.8;
     }
-
 	#aboutme {
         font-family: 'Bad Script', sans-serif;
-        font-size: 2.5vh;
+        font-size: 16px;
         color: #FF7600;
     }
-    
     h1 {
         font-family: 'Orbitron', sans-serif;
         padding-bottom: 0.5em;

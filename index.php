@@ -5,13 +5,10 @@
     <title>Portfolio</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="elements/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="elements/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron:400,700|Bad+Script" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!--<link rel="stylesheet" type="text/css" href="elements/css/popup.css" />-->
-    <script type="text/javascript" src="elements/bootstrap/js/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="elements/js/lib/jquery-ui.min.js"></script>
-    <!--<script type="text/javascript" src="elements/js/lib/jquery.popup.min.js"></script>-->
-    <script type="text/javascript" src="elements/js/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -19,7 +16,7 @@
     <header class="container-fluid" id="section1">
         <div class="col-lg-6 col-lg-push-3 col-sm-8 col-sm-push-2 text-center accueil">
             <h1>Moi en quelques lignes</h1>
-            <p id="aboutme">Bienvenue sur mon site, je me présente Floryan L . Je suis une formation pour avoir un statut de développeur
+            <p id="aboutme">Bienvenue sur mon site, je me présente Floryan Lollivier. Je suis une formation pour avoir un statut de développeur
                 web et mobile au sein de la Code Académie, organisée par FACE (la Fondation Agir Contre l’Exclusion). Je
                 vous propose de cliquer sur "Portfolio" pour en apprendre plus sur mes projets. Pour savoir quels langages
                 j'ai en connaissance, vous pouvez visiter la section "Mes compétences". Si vous avez des questions ou des
@@ -33,7 +30,7 @@
                 <div class="navbar-header">
 					<!--<a class="navbar-brand" href="#">
         				<img alt="" src=""></a>-->
-					<a class="navbar-brand name" href="#">Floryan L</a>
+					<a class="navbar-brand name" href="#">F. Lollivier</a>
 
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#test1" 
 					aria-expanded="false" aria-controls="#sticky">
@@ -46,10 +43,10 @@
 
                 <div class="sticky side nav navbar-right col-lg-6 col-lg-pull-1">
                     <ul class="nav navbar-nav navbar-right" id="test1">
-                        <li class="col-lg-3 js-section"><a href="#section1">Accueil</a></li>
-                        <li class="col-lg-5 js-section"><a href="#section2">Mes Compétences</a></li>
-                        <li class="col-lg-3 js-section"><a href="#section3">Portfolio</a></li>
-                        <li class="col-lg-1 js-section"><a href="#section4">Contact</a></li>
+                        <li class="navpadding js-section"><a href="#section1">Accueil</a></li>
+                        <li class="navpadding js-section"><a href="#section2">Compétences</a></li>
+                        <li class="navpadding js-section"><a href="#section3">Portfolio</a></li>
+                        <li class="navpadding js-section"><a href="#section4">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,14 +55,16 @@
 
     <section class="container-fluid" id="section2">
         <div class="col-lg-10 col-lg-push-1 domaine">
-            <h2>Mes domaines</h2>
-            <p id="langages">HTML5 | CSS3 | Bootstrap | Javascript | JQuery | PHP | Github | Gimp</p>
+            <h2>Compétences</h2>
+            <p id="langages">Front-end : HTML5 | CSS3 | Javascript | JQuery | Bootstrap | AngularJS</p>
+            <p id="langages">Back-end : PHP</p>
+            <p id="langages">Outils : Gimp | Photoshop | Github | Visual Studio Code</p>
         </div>
     </section>
 
     <section class="container-fluid" id="section3">
         <div class="col-lg-10 col-lg-offset-1 xp">
-            <h2>Mes démonstrations</h2>
+            <h2>Portfolio</h2>
             <div class="col-lg-10 col-lg-offset-1">
                 <div>
 
@@ -132,10 +131,11 @@
     <section class="container-fluid" id="section4">
         <div class="col-lg-10 col-lg-push-1 contact">
             <h2>Contact</h2>
+
             <!-- formulaire -->
             <form method="post" action="contact.php" class="col-lg-6 col-lg-push-3 col-sm-8 col-sm-push-2">
                 <input type="text" name="nom" id="nom" placeholder="Votre Nom " size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1" required />
-                <input type="text" name="prenom" id="prenom" placeholder="Votre Prénom" size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1" required />
+                <!--<input type="text" name="prenom" id="prenom" placeholder="Votre Prénom" size="15" maxlength="10" class="text-center col-sm-10 col-sm-push-1" required />-->
                 <input type="email" name="email" placeholder="Votre adresse mail" size="18" maxlength="30" class="text-center col-sm-10 col-sm-push-1" required />
                 <textarea name="message" placeholder="Votre commentaire..." rows="3" cols="20" class="col-sm-10 col-sm-push-1" required ></textarea>
                 <button type="submit" class="btnsend col-lg-4 col-lg-push-4 col-sm-4 col-sm-push-4">Envoyer</button>
@@ -145,14 +145,20 @@
 
     <footer class="container-fluid">
         <div class="col-lg-12">
+            <p class="text-center">
+                <a href="https://twitter.com/floryanlollivi1"><i class="fa fa-twitter fa-2x icon-so" aria-hidden="true"></i></a> 
+                <a href="https://fr.linkedin.com/in/floryan-lollivier-2a4248122"><i class="fa fa-linkedin fa-2x icon-so" aria-hidden="true"></i></a>
+                <a href="https://github.com/FloryanL"><i class="fa fa-github fa-2x icon-so" aria-hidden="true"></i></a> </p>
             <p class="credits text-center">
-                <a href="mailto:?to=floryan.lollivier@gmail.com">ME CONTACTER</a> - © 2016 | WEBDESIGN FRONT END |
-                <a href="https://twitter.com/floryanlollivi1">TWITTER</a> |
-                <a href="https://fr.linkedin.com/in/floryan-lollivier-2a4248122">LINKEDIN</a> |
-                <a href="https://github.com/FloryanL">GITHUB</a> </p>
+                © 2017 | <a href="mailto:?to=floryan.lollivier@gmail.com">Me contacter</a> | Développeur web</p>
         </div>
     </footer>
 
 </body>
+
+    <script type="text/javascript" src="elements/bootstrap/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="elements/js/lib/jquery-ui.min.js"></script>
+    <!--<script type="text/javascript" src="elements/js/lib/jquery.popup.min.js"></script>-->
+    <script type="text/javascript" src="elements/js/script.js"></script>
 
 </html>
